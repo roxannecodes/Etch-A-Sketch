@@ -1,5 +1,5 @@
 
-let userInput = prompt ("Enter the number of boxes for grid size (ex: 12,16,20...).");
+let userInput = prompt ("Enter the number of boxes for grid size (ex: 12,16,20...).", 16);
 let grid = document.querySelector(".container");
 
 
