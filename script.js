@@ -12,7 +12,6 @@ function createGrid (userInput) {
     "grid-template-rows",
     `repeat(${userInput}, 2fr)`
   );
-
   for (let i = 0; i < userInput * userInput; i++) {
     let div = document.createElement("div");
     div.classList.add("cell");

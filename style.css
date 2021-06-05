@@ -70,21 +70,18 @@ footer{
 font-family: 'Courier New', Courier, monospace;
 color: black;
 background-color:inherit;
-opacity: .7;
+
 padding:0.3em;
 font-size:14px;
-text-decoration: bold;
+text-decoration: bolder;
 position:fixed;
 left:0;
-bottom:.75em;
+padding-bottom:3em;
 width:100%;
 text-align: center;
 }
 
-footer a{
-  text-decoration:none;
-  color:black;
-}
+
 
 
 
