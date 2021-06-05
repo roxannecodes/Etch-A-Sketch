@@ -1,3 +1,4 @@
+
 # Etch-A-Sketch
 ### Live demo --> https://etch-a-sketch.roxannecodes.repl.co/
 ### The project:
@@ -5,3 +6,4 @@
 - Time-frame: ~ 9 hours to design and write my solution for this project challenge (in one sitting). https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project
 - Skills:
  More advanced DOM manipulation methods to create and modify CSS grids using vanilla JS.
+![etch-a-sketch project](https://user-images.githubusercontent.com/83316514/120901975-c101e980-c60b-11eb-9ad3-707f476423bd.JPG)
