@@ -2,7 +2,6 @@
 let userInput = prompt ("Enter the number of boxes for grid size (ex: 12,16,20...).", 16);
 let grid = document.querySelector(".container");
 
-
 function createGrid (userInput) {
   grid.innerHTML = "";
   grid.style.setProperty(
@@ -19,16 +18,13 @@ function createGrid (userInput) {
     div.classList.add("cell");
     grid.appendChild(div);
   }
- 
 }
-
 
 grid.addEventListener("mouseover", function(event) {
   event.target.classList.replace("cell", "color");
 })
 
 createGrid (userInput);
-
 
 let reset = document.querySelector('.reset-btn');
 reset.addEventListener('click', function(){

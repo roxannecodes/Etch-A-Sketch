@@ -3,16 +3,11 @@
   background-color:rgb(204, 249, 255);
 }
 
-
 body{
-
   text-align:center;
   justify-content: center;
   align-items: center;
- 
-
 }
-
 
 .header{
   display:flex;
@@ -27,14 +22,12 @@ body{
 }
 
 .title {
-   font-weight: bolder;
+  font-weight: bolder;
   font-size:3em;
-
   opacity:.7;
   text-align: center;
   position: relative;
   left:0.25em;
- 
 }
 
 .reset-btn{
@@ -46,7 +39,6 @@ body{
   position: relative;
   left:1em;
 }
- 
 
 .cell {
   background-color: white;
@@ -69,29 +61,22 @@ body{
   border-radius: 5px;
   height: 500px;
   width: 575px;
-
   position: relative;
   bottom:3em;
   left:1em;
 }
 
-
-
-/* footer */
 footer{
 font-family: 'Courier New', Courier, monospace;
 color: black;
 background-color:inherit;
 opacity: .7;
 padding:0.3em;
-
 font-size:14px;
 text-decoration: bold;
 position:fixed;
 left:0;
 bottom:.75em;
-
-
 width:100%;
 text-align: center;
 }
