@@ -32,6 +32,8 @@ body{
 
   opacity:.7;
   text-align: center;
+  position: relative;
+  left:0.25em;
  
 }
 
@@ -57,12 +59,13 @@ body{
 }
 
 .container {
+  background-color:white;
   margin-top: 5px;
   margin-right: 40px;
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
-  border: 5px solid black;
+  border: 5px solid rgb(53, 52, 52);
   border-radius: 5px;
   height: 500px;
   width: 575px;
@@ -77,15 +80,16 @@ body{
 /* footer */
 footer{
 font-family: 'Courier New', Courier, monospace;
-color: white;
-background-color:rgb(92, 99, 100);
+color: black;
+background-color:inherit;
 opacity: .7;
 padding:0.3em;
 
-font-size:12px;
+font-size:14px;
+text-decoration: bold;
 position:fixed;
 left:0;
-bottom:0;
+bottom:.75em;
 
 
 width:100%;
