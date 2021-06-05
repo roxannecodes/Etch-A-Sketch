@@ -1,8 +1,10 @@
-
+//Get user's input for grid size
 let userInput = prompt ("Enter the number of boxes for grid size (ex: 12,16,20...).", 16);
 let grid = document.querySelector(".container");
 
+//create grid based on user's input
 function createGrid (userInput) {
+
   grid.innerHTML = "";
   grid.style.setProperty(
     "grid-template-columns",
@@ -11,24 +13,23 @@ function createGrid (userInput) {
   grid.style.setProperty(
     "grid-template-rows",
     `repeat(${userInput}, 2fr)`
-  );
+  );;/.
+
   for (let i = 0; i < userInput * userInput; i++) {
     let div = document.createElement("div");
     div.classList.add("cell");
     grid.appendChild(div);
   }
 }
-
+//program event: hover over cell to change color
 grid.addEventListener("mouseover", function(event) {
   event.target.classList.replace("cell", "color");
 })
-
 createGrid (userInput);
 
+//program reset button to refresh window
 let reset = document.querySelector('.reset-btn');
 reset.addEventListener('click', function(){
  window.location.reload();
 })
-
-  createGrid(userInput);
-  
+createGrid(userInput);
