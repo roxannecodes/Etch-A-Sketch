@@ -8,8 +8,9 @@ body {
   justify-content: center;
   align-items: center;
   padding-top:1em;
-  display: flex;
-  flex-direction: column;
+ display:flex;
+ flex-direction: column;
+ 
 }
 
 .header {
@@ -26,7 +27,7 @@ body {
 .title {
   font-weight: bolder;
   font-size:3em;
-  opacity:.7;
+  opacity:0.8;
   text-align: center;
   position: relative;
   left:0.25em;
@@ -91,30 +92,33 @@ justify-content: center;
 
 @media screen and (max-width:421px) {
 
+body{
+  padding-top:0em;
+}
   .container{
     width:375px;
     position: relative;
     bottom:3em;
-    left:2.5em;
+    left:2.15em;
   
   }
 
-  .header {
+.header {
+ position: relative;
+ left:0em;
+ right:1em;
 
-  
-  text-align:center;
-   position: relative;
-  bottom:1.75em;
-  left:1em;
+
 }
 
 .title {
   font-weight: bolder;
   font-size:3em;
-  opacity:.7;
+  opacity: .8;
   text-align: center;
   position: relative;
-  left:0.25em;
+  left:1.5em;
+
 }
 
 .reset-btn {
@@ -124,7 +128,8 @@ justify-content: center;
   opacity:.6;
 
   position: relative;
-left:0;
+  left:0.5em;
+  bottom:o;
   
 }
 
