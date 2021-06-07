@@ -1,19 +1,20 @@
-*{
+* {
   font-family: 'Londrina Outline', cursive;
   background-color:rgb(204, 249, 255);
 }
 
-body{
+body {
   text-align:center;
   justify-content: center;
   align-items: center;
   padding-top:1em;
+  display: flex;
+  flex-direction: column;
 }
 
-.header{
+.header {
   display:flex;
 
-   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
   text-align:center;
@@ -31,7 +32,7 @@ body{
   left:0.25em;
 }
 
-.reset-btn{
+.reset-btn {
   border:none;
   background-color:inherit;
   font-size:2.5em;
@@ -41,6 +42,7 @@ body{
   left:1em;
 }
 
+/* grid */
 .container {
   background-color:white;
   margin-top: 5px;
@@ -72,17 +74,72 @@ font-family: 'Courier New', Courier, monospace;
 color: black;
 background-color:inherit;
 
-padding:0.3em;
+padding:1em;
 font-size:19px;
 text-decoration: bolder;
-position:fixed;
-left:0;
-padding-bottom:3em;
+
+
 width:100%;
 text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 
+
+/***MOBILE (portrait) responsive ****/
+
+@media screen and (max-width:421px) {
+
+  .container{
+    width:375px;
+    position: relative;
+    bottom:3em;
+    left:2.5em;
+  
+  }
+
+  .header {
+
+  
+  text-align:center;
+   position: relative;
+  bottom:1.75em;
+  left:1em;
+}
+
+.title {
+  font-weight: bolder;
+  font-size:3em;
+  opacity:.7;
+  text-align: center;
+  position: relative;
+  left:0.25em;
+}
+
+.reset-btn {
+  border:none;
+  background-color:inherit;
+  font-size:2.5em;
+  opacity:.6;
+
+  position: relative;
+left:0;
+  
+}
+
+
+  footer{
+    font-size:15px;
+    position: relative;
+    bottom:2em;
+    left:1.5em;
+    text-align: center;
+align-items: center;
+justify-content: center;
+
+  }
+}
 
 
 
