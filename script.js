@@ -37,7 +37,7 @@ reset.addEventListener ("click", function (){
 
 
 function updateGrid () {
-   userInput = prompt("Enter a number to pupulate the rows and columns of your grid.",16);
+   userInput = prompt("Enter a number to populate the rows and columns of the grid with boxes.",16);
   grid.innerHTML = ""; //set container to empty (blank grid)
   grid.style.setProperty(
     "grid-template-columns",
