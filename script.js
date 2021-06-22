@@ -4,7 +4,7 @@ let grid = document.querySelector(".container");
 //create and display a default grid upon loading page
 
 function createGrid (){
-grid.innerHTML = ""; //set container to empty (blank grid)
+grid.innerHTML = ""; 
   grid.style.setProperty(
     "grid-template-columns",
     "repeat(16, 1fr)"
@@ -16,14 +16,15 @@ grid.innerHTML = ""; //set container to empty (blank grid)
   for (let i = 0; i < 256; i++) {
     let div = document.createElement("div");
     div.classList.add("cell");
-    grid.appendChild(div); // specify where the new divs are going
+    grid.appendChild(div); 
   }
 
-// Add event listener to parent CONTAINER (grid) for when user "hovers" over cells and program the event
+// Add event listener to parent CONTAINER (grid) 
 grid.addEventListener("mouseover", function(event) {
-  event.target.classList.replace("cell", "color");
-})
-}
+   event.target.classList.replace("cell", "color");
+ })
+ }
+
 
 
 //refresh button
