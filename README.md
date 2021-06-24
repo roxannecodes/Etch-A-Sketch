@@ -5,7 +5,7 @@
 ### The project:
 - Goal: to create a canvas for users to draw on by dividing a grid into boxes that change color upon the user dragging their mouse over them.
 
-- default grid size of 16 x 16 is initially displayed, and the user is prompted to input their desired value upon pressing the refresh buttons. 
+- default grid size of 16 x 16 is initially displayed, and the user is prompted to input their desired value upon pressing the refresh button. 
 
 - Time-frame: ~ 9 hours to design and write my solution for this project challenge (in one sitting). https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project
 
