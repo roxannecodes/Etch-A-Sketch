@@ -43,14 +43,13 @@ body {
   left:1em;
 }
 
-/* grid */
-.container {
+
+.grid {
   background-color:white;
   margin-top: 5px;
   margin-right: 40px;
   display: inline-grid;
-  /* grid-template-columns: repeat(16, 2fr); */
-  /* grid-template-rows: repeat(16, 2fr); */
+
   border: 5px solid rgb(53, 52, 52);
   border-radius: 5px;
   height: 500px;
@@ -88,14 +87,14 @@ justify-content: center;
 
 
 
-/***MOBILE (portrait) responsive ****/
+/***MOBILE (portrait)  ****/
 
 @media screen and (max-width:421px) {
 
 body{
   padding-top:0em;
 }
-  .container{
+  .grid {
     width:375px;
     position: relative;
     bottom:3em;

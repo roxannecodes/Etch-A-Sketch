@@ -1,5 +1,5 @@
 
-let grid = document.querySelector(".container");
+let grid = document.querySelector(".grid");
 
 //create and display a default grid upon loading page
 
@@ -24,8 +24,6 @@ grid.addEventListener("mouseover", function(event) {
    event.target.classList.replace("cell", "color");
  })
  }
-
-
 
 //refresh button
 let reset = document.querySelector('.reset-btn');
