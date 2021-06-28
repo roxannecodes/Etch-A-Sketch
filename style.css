@@ -154,14 +154,17 @@ body{
   }
 
   .title {
-    left:1.5em;
+    left:1.3em;
   }
   .grid {
     width:365px;
     position: relative;
     left:2.5em;
   }
-
+  
+  footer {
+    left:1.7em;
+  }
 
 
 }
