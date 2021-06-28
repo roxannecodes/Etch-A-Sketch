@@ -7,7 +7,7 @@ body {
   text-align:center;
   justify-content: center;
   align-items: center;
-  padding-top:1em;
+  padding-top:2.5em;
  display:flex;
  flex-direction: column;
  
@@ -85,29 +85,29 @@ align-items: center;
 justify-content: center;
 }
 
+/* Media Inqueries */
 
 
-/***MOBILE (portrait)  ****/
+/***MOBILE (wide) ****/
 
-@media screen and (max-width:421px) {
+@media screen and (max-width:575px) {
 
 body{
-  padding-top:0em;
+  padding-top:1.5em;
+  position: relative;
+  right:20px;
 }
   .grid {
     width:375px;
     position: relative;
     bottom:3em;
     left:2.15em;
-  
   }
 
 .header {
  position: relative;
  left:0em;
  right:1em;
-
-
 }
 
 .title {
@@ -116,34 +116,52 @@ body{
   opacity: .8;
   text-align: center;
   position: relative;
-  left:1.5em;
-
+  left:1.1em;
 }
 
 .reset-btn {
   border:none;
   background-color:inherit;
-  font-size:2.5em;
+  font-size:2em;
   opacity:.6;
-
   position: relative;
-  left:0.5em;
-  bottom:o;
-  
+  left:2.9em;
+  bottom:0px;
 }
-
 
   footer{
     font-size:15px;
     position: relative;
-    bottom:2em;
-    left:1.5em;
+    bottom:1em;
+    left:1.1em;
     text-align: center;
-align-items: center;
-justify-content: center;
-
+    align-items: center;
+    justify-content: center;
   }
 }
 
+/* mobile (narrow)**** */
+
+@media screen and (max-width: 440px) {
 
 
+ body {
+   padding-top:0.5em;
+ }
+  .reset-btn{
+    position: relative;
+    left:0.75em;
+  }
+
+  .title {
+    left:1.5em;
+  }
+  .grid {
+    width:365px;
+    position: relative;
+    left:2.2em;
+  }
+
+
+
+}
